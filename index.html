@@ -1,0 +1,531 @@
+<!doctype html>
+
+<html lang="cs">
+
+<head>
+
+    <!-- Základní nastavení stránky -->
+    <meta charset="utf-8">
+
+    <!-- Responzivita pro mobily -->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <!-- Název stránky v záložce prohlížeče -->
+    <title>
+        MOD — Lesnické práce & arboristika
+    </title>
+
+    <!-- Hlavní CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <main>
+
+        <!-- ==================================================
+             HERO
+             Úvodní obrazovka s hlavní fotografií
+             ================================================== -->
+
+        <section
+            class="hero"
+            id="hero"
+        >
+
+            <div class="hero-overlay"></div>
+
+
+            <!-- ==========================
+                 MENU V HERO
+                 ========================== -->
+
+            <header class="nav hero-nav">
+
+                <!-- Logo -->
+                <a
+                    class="logo"
+                    href="#hero"
+                >
+                    MOD
+                </a>
+
+
+                <!-- Desktop navigace -->
+                <nav class="desktop-links">
+
+                    <a
+                        href="#sluzby"
+                        data-i18n="nav.services"
+                    ></a>
+
+                    <a
+                        href="#onas"
+                        data-i18n="nav.about"
+                    ></a>
+
+                    <a
+                        href="#prace"
+                        data-i18n="nav.work"
+                    ></a>
+
+                    <a
+                        href="#kontakt"
+                        data-i18n="nav.contact"
+                    ></a>
+
+                </nav>
+
+
+                <!-- Pravá část menu -->
+                <div class="nav-actions">
+
+
+                    <!-- Přepínač jazyků -->
+                    <div class="language-switch">
+
+                        <button
+                            class="lang-button"
+                            data-lang="cs"
+                        >
+                            CZ
+                        </button>
+
+                        <span>/</span>
+
+                        <button
+                            class="lang-button"
+                            data-lang="sv"
+                        >
+                            SV
+                        </button>
+
+                        <span>/</span>
+
+                        <button 
+                            class="lang-button" 
+                            data-lang="en"
+                        >
+                            EN
+                        </button>
+
+                    </div>
+
+
+                    <!-- Tlačítko Poptat práci -->
+                    <a
+                        class="nav-button desktop-cta"
+                        href="#kontakt"
+                        data-i18n="nav.cta"
+                    ></a>
+
+
+                    <!-- Hamburger menu -->
+                    <button
+                        class="menu-toggle"
+                        aria-label="Menu"
+                        aria-expanded="false"
+                    >
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </button>
+
+                </div>
+
+
+                <!-- ==========================
+                     MOBILNÍ MENU
+                     ========================== -->
+
+                <div class="mobile-menu">
+
+                    <nav>
+
+                        <a
+                            href="#sluzby"
+                            data-i18n="nav.services"
+                        ></a>
+
+                        <a
+                            href="#onas"
+                            data-i18n="nav.about"
+                        ></a>
+
+                        <a
+                            href="#prace"
+                            data-i18n="nav.work"
+                        ></a>
+
+                        <a
+                            href="#kontakt"
+                            data-i18n="nav.contact"
+                        ></a>
+
+                    </nav>
+
+
+                    <!-- Poptat práci -->
+                    <a
+                        class="button"
+                        href="#kontakt"
+                        data-i18n="nav.cta"
+                    ></a>
+
+                </div>
+
+            </header>
+
+
+            <!-- ==========================
+                 HERO TEXT
+                 ========================== -->
+
+            <div class="hero-content">
+
+                <!-- <p
+                    class="eyebrow"
+                    data-i18n="hero.eyebrow"
+                ></p> -->
+
+
+                <h1
+                    data-i18n-html="hero.title"
+                ></h1>
+
+
+                <p
+                    class="lead"
+                    data-i18n="hero.description"
+                ></p>
+
+
+                <!-- Hlavní CTA -->
+                <a
+                    class="button"
+                    href="#kontakt"
+                >
+
+                    <span
+                        data-i18n="hero.button"
+                    ></span>
+
+                    <span>→</span>
+
+                </a>
+
+            </div>
+
+
+            <!-- Číslo / označení sekce -->
+            <!-- <div
+                class="hero-caption"
+                data-i18n="hero.caption"
+            ></div> -->
+
+        </section>
+
+
+        <!-- ==================================================
+             NAVIGACE PO OD-SCROLLOVÁNÍ HERO
+             ================================================== -->
+
+        <header
+            class="nav scrolled-nav"
+            id="scrolled-nav"
+        >
+
+            <!-- Logo -->
+            <a
+                class="logo"
+                href="#hero"
+            >
+                MOD
+            </a>
+
+
+            <!-- Desktop navigace -->
+            <nav class="desktop-links">
+
+                <a
+                    href="#sluzby"
+                    data-i18n="nav.services"
+                ></a>
+
+                <a
+                    href="#onas"
+                    data-i18n="nav.about"
+                ></a>
+
+                <a
+                    href="#prace"
+                    data-i18n="nav.work"
+                ></a>
+
+                <a
+                    href="#kontakt"
+                    data-i18n="nav.contact"
+                ></a>
+
+            </nav>
+
+
+            <!-- Pravá část -->
+            <div class="nav-actions">
+
+                <!-- Jazyky -->
+                <div class="language-switch">
+
+                    <button
+                        class="lang-button"
+                        data-lang="cs"
+                    >
+                        CZ
+                    </button>
+
+                    <span>/</span>
+
+                    <button
+                        class="lang-button"
+                        data-lang="sv"
+                    >
+                        SV
+                    </button>
+
+                        <span>/</span>
+
+                        <button 
+                            class="lang-button" 
+                            data-lang="en"
+                        >
+                            EN
+                        </button>
+                </div>
+
+
+                <!-- CTA -->
+                <a
+                    class="nav-button desktop-cta"
+                    href="#kontakt"
+                    data-i18n="nav.cta"
+                ></a>
+
+
+                <!-- Hamburger -->
+                <button
+                    class="menu-toggle scrolled-menu-toggle"
+                    aria-label="Menu"
+                    aria-expanded="false"
+                >
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==================================================
+             INTRO
+             ================================================== -->
+
+        <section class="intro">
+
+            <p
+                class="eyebrow"
+                data-i18n="intro.eyebrow"
+            ></p>
+
+
+            <h2
+                data-i18n-html="intro.title"
+            ></h2>
+
+
+            <p
+                class="intro-text"
+                data-i18n="intro.text"
+            ></p>
+
+        </section>
+
+
+        <!-- ==================================================
+             SLUŽBY
+             ================================================== -->
+
+        <section
+            id="sluzby"
+            class="services"
+        >
+
+            <div class="section-heading">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="services.eyebrow"
+                ></p>
+
+                <h2
+                    data-i18n="services.title"
+                ></h2>
+
+            </div>
+
+
+            <!-- JavaScript sem vloží jednotlivé služby -->
+            <div
+                class="service-grid"
+                id="service-grid"
+            ></div>
+
+        </section>
+
+
+        <!-- ==================================================
+             O NÁS
+             ================================================== -->
+
+        <section
+            id="onas"
+            class="about"
+        >
+
+            <!-- Fotografie -->
+            <div class="about-image"></div>
+
+
+            <!-- Text -->
+            <div class="about-content">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="about.eyebrow"
+                ></p>
+
+                <h2
+                    data-i18n="about.title"
+                ></h2>
+
+
+                <!-- JavaScript sem vloží odstavce -->
+                <div id="about-paragraphs"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             NAŠE PRÁCE
+             ================================================== -->
+
+        <section
+            id="prace"
+            class="work"
+        >
+
+            <div class="section-heading">
+
+                <p
+                    class="eyebrow"
+                    data-i18n="work.eyebrow"
+                ></p>
+
+                <h2
+                    data-i18n-html="work.title"
+                ></h2>
+
+            </div>
+
+
+            <!-- Fotografie se generují přes JavaScript -->
+            <div
+                class="photo-grid"
+                id="photo-grid"
+            ></div>
+
+        </section>
+
+
+        <!-- ==================================================
+             KONTAKT
+             ================================================== -->
+
+        <section
+            id="kontakt"
+            class="contact"
+        >
+
+            <p
+                class="eyebrow"
+                data-i18n="contact.eyebrow"
+            ></p>
+
+
+            <h2
+                data-i18n-html="contact.title"
+            ></h2>
+
+
+            <p
+                data-i18n="contact.text"
+            ></p>
+
+
+            <!-- E-mail se doplní přes JavaScript -->
+            <a
+                class="button button-light"
+                id="email-button"
+                href="#"
+            >
+
+                <span
+                    data-i18n="contact.button"
+                ></span>
+
+                <span>→</span>
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================================
+         FOOTER
+         ================================================== -->
+
+    <footer>
+
+        <div class="logo">
+            MOD
+        </div>
+
+        <p
+            data-i18n="footer.description"
+        ></p>
+
+        <p
+            data-i18n="footer.copyright"
+        ></p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

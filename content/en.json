@@ -1,0 +1,97 @@
+{
+    "site": {
+        "name": "MOD",
+        "tagline": "Forestry & arboriculture",
+        "email": "info@mod-skogsarbete.se"
+    },
+
+    "nav": {
+        "services": "Services",
+        "about": "About us",
+        "work": "Our work",
+        "contact": "Contact",
+        "cta": "Request a quote"
+    },
+
+    "hero": {
+        "eyebrow": "Forestry work · Sweden",
+        "title": "Work in the forest.<br><em>Done properly.</em>",
+        "description": "Forestry work, forest management, dangerous tree felling and arboriculture.",
+        "button": "Send an enquiry",
+        "caption": "MOD / 01"
+    },
+
+    "intro": {
+        "eyebrow": "MOD",
+        "title": "Forestry work from planting<br>to demanding tree felling.",
+        "text": "We specialise in forestry work and tree care. Reliable, safe and with respect for the place where we work."
+    },
+
+    "services": {
+        "eyebrow": "01 / Services",
+        "title": "What we do",
+        "items": [
+            {
+                "title": "Forest planting",
+                "description": "Planting new forest stands and work related to forest regeneration."
+            },
+            {
+                "title": "Pre-commercial thinning",
+                "description": "Managing young forest stands and preparing them for healthy future growth."
+            },
+            {
+                "title": "Thinning & pre-harvest work",
+                "description": "Work carried out before harvesting, with a focus on efficient forest management."
+            },
+            {
+                "title": "Dangerous tree felling",
+                "description": "Felling trees in demanding and hazardous conditions."
+            },
+            {
+                "title": "Arboriculture",
+                "description": "Working at height, tree care and safe removal of branches."
+            },
+            {
+                "title": "Other forestry work",
+                "description": "Individual assignments tailored to the needs of forest owners and customers."
+            }
+        ]
+    },
+
+    "about": {
+        "eyebrow": "02 / About us",
+        "title": "Work you can rely on.",
+        "paragraphs": [
+            "MOD is a forestry company operating in Sweden. We focus on practical forestry work, forest management and safe solutions for demanding assignments.",
+            "More information about the company, experience, equipment, service area and background will be added here."
+        ]
+    },
+
+    "work": {
+        "eyebrow": "03 / Our work",
+        "title": "Real work.<br>Real results.",
+        "items": [
+            {
+                "label": "Forest planting"
+            },
+            {
+                "label": "Dangerous tree felling"
+            },
+            {
+                "label": "Arboriculture"
+            }
+        ]
+    },
+
+    "contact": {
+        "eyebrow": "04 / Contact",
+        "title": "Have a project?<br><em>Get in touch.</em>",
+        "text": "Tell us what you need. We will get back to you and discuss the next steps.",
+        "button": "Send an email"
+    },
+
+    "footer": {
+        "description": "Forestry & arboriculture · Sweden",
+        "copyright": "© 2026 MOD"
+    }
+}

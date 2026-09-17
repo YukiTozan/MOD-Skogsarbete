@@ -1,0 +1,111 @@
+{
+    "site": {
+        "name": "MOD",
+        "tagline": "Lesnické práce & arboristika",
+        "email": "info@mod-skogsarbete.se"
+    },
+
+    "nav": {
+        "services": "Služby",
+        "about": "O nás",
+        "work": "Naše práce",
+        "contact": "Kontakt",
+        "cta": "Poptat práci"
+    },
+
+    "hero": {
+        "eyebrow": "Lesnické práce · Linkoping · Švédsko",
+        "title": "Práce v lese.<br><em>Pořádně.</em>",
+        "description": "Lesnické práce, péče o porosty, rizikové kácení a arboristika.",
+        "button": "Nezávazná poptávka",
+        "caption": "MOD / 01"
+    },
+
+    "intro": {
+        "eyebrow": "MOD",
+        "title": "Lesnické práce od výsadby<br>po rizikové kácení.",
+        "text": "Specializujeme se na práci v lese a péči o stromy. Spolehlivě, bezpečně a s respektem k místu, ve kterém pracujeme."
+    },
+
+    "services": {
+        "eyebrow": "01 / Služby",
+
+        "items": [
+            {
+                "title": "Výsadba lesa",
+                "description": "Výsadba nových porostů a práce spojené s obnovou lesa."
+            },
+
+            {
+                "title": "Prořezávky",
+                "description": "Péče o mladé porosty a jejich příprava pro další růst."
+            },
+
+            {
+                "title": "Probírky & předtěžba",
+                "description": "Práce před těžbou a péče o porost s důrazem na efektivitu."
+            },
+
+            {
+                "title": "Rizikové kácení",
+                "description": "Kácení stromů v náročných a rizikových podmínkách."
+            },
+
+            {
+                "title": "Arboristika",
+                "description": "Práce ve výškách, péče o stromy a bezpečné odstraňování větví."
+            },
+
+            {
+                "title": "Další lesnické práce",
+                "description": "Individuální zakázky podle potřeb vlastníka lesa nebo zákazníka."
+            }
+        ]
+    },
+
+    "about": {
+        "eyebrow": "02 / O nás",
+        "title": "Práce, na kterou je spoleh.",
+
+        "paragraphs": [
+            "MOD je lesnická firma působící ve Švédsku. Zaměřujeme se na praktickou práci v lese, péči o porosty a bezpečné řešení náročných zakázek.",
+
+            "Postupně sem doplníme příběh firmy, zkušenosti, vybavení, oblast působnosti a další informace."
+        ]
+    },
+
+    "work": {
+        "eyebrow": "03 / Naše práce",
+        "title": "Skutečná práce.<br>Skutečné výsledky.",
+
+        "items": [
+            {
+                "label": "Sázení"
+            },
+
+            {
+                "label": "Prořezávky"
+            },
+
+                        {
+                "label": "Rizikové kácení"
+            },
+
+            {
+                "label": "Arboristika"
+            }
+        ]
+    },
+
+    "contact": {
+        "eyebrow": "04 / Kontakt",
+        "title": "Máte zakázku?<br><em>Ozvěte se.</em>",
+        "text": "Popište nám, co potřebujete. Ozveme se zpět a domluvíme další postup.",
+        "button": "Napsat e-mail"
+    },
+
+    "footer": {
+        "description": "Lesnické práce & arboristika · Linkoping · Švédsko",
+        "copyright": "© 2026 MOD"
+    }
+}
