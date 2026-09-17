@@ -29,6 +29,7 @@
 
     "services": {
         "eyebrow": "01 / Služby",
+        "title": "Co děláme",
 
         "items": [
             {
